@@ -30,8 +30,8 @@ brew install --with-x265 ffmpeg    # 重い
 
 # Install fonts
 brew tap caskroom/fonts
-font-soure-code-pro
-hack
+brew cask install font-source-code-pro
+brew cask install font-hack
 
 # Install cask
 brew cask install coteditor
