@@ -42,7 +42,7 @@ brew cask install sourcetree
 brew cask install slack
 brew cask install skype
 brew cask install flux
-brew cask install install --appdir=/Applications megasync
+brew cask install --appdir=/Applications megasync
 brew cask install adobe-acrobat-reader
 brew cask install skitch
 brew cask install android-file-transfer
