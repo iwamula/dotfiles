@@ -26,7 +26,7 @@ brew install tree
 brew install unar
 brew install tmux
 brew install wget
-brew install --with-x265 ffmpeg    # 重い
+# brew install --with-x265 ffmpeg    # 重い
 
 # Install fonts
 brew tap caskroom/fonts
@@ -55,5 +55,5 @@ brew cask install visual-studio-code
 brew cask install onyx
 brew cask install java
 brew cask install emacs
-brew cask install mactex            # とっても重い
+# brew cask install mactex            # とっても重い
 brew cask install texstudio
