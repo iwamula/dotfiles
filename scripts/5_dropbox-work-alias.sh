@@ -5,5 +5,6 @@
 # Note: 先に同期を済ませておくこと
 
 for file in `find ~/Dropbox/Work -depth 1 -type d`; do
-    ln -sf $file ~/Work/
+  echo "ln -sf $file ~/Work/"
+  ln -sf $file ~/Work/
 done
