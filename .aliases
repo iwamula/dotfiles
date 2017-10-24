@@ -1,0 +1,31 @@
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias cd..='..'
+alias cd...='...'
+alias cd....='....'
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# Shortcuts
+alias dl='cd ~/Downloads'
+alias wo='cd ~/Work'
+alias g='git'
+alias emacs='emacsclient -nw -a ""'
+alias e='emacs'
+type /usr/local/bin/emacs >/dev/null &&\
+  alias emacs-gui='/usr/local/bin/emacs'
+alias ls='ls -p'
+alias la='ls -a'
+alias ll='ls -alFG'
+alias l='ll'
+alias v='vi'
+
+# Others
+alias sudo='sudo ' # sudoでエイリアスを有効
+alias mv='mv -i'
+alias mkdir='mkdir -p'
+type rmtrash >/dev/null && alias rm='rmtrash'
+type unar >/dev/null && alias unar='unar -d'
