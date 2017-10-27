@@ -55,5 +55,3 @@ brew cask install visual-studio-code
 brew cask install onyx
 brew cask install java
 brew cask install emacs
-# brew cask install mactex            # とっても重い
-brew cask install texstudio
