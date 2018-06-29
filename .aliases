@@ -26,6 +26,7 @@ alias v='vi'
 # Others
 alias sudo='sudo ' # sudoでエイリアスを有効
 alias mv='mv -i'
+alias cp='cp -i'
 alias mkdir='mkdir -p'
 type rmtrash >/dev/null && alias rm='rmtrash'
 type unar >/dev/null && alias unar='unar -d'
