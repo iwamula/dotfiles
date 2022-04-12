@@ -1,5 +1,6 @@
-export ZPLUG_HOME=/usr/local/opt/zplug
+export ZPLUG_HOME=/opt/homebrew/opt/zplug
 source $ZPLUG_HOME/init.zsh
+
 
 # プラグイン
 zplug "zsh-users/zsh-syntax-highlighting", defer:3
